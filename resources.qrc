@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/QRectangleCreator/" >
+        <file>icons/addRectangle.png</file>
+    </qresource>
+</RCC>
