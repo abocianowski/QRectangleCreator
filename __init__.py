@@ -9,7 +9,7 @@
         begin                : 2019-05-16
         copyright            : (C) 2019 by Adrian Bocianowski
         email                : adrian@bocianowski.com.pl
-        git                  : https://github.com/abocianowski/QRectangleCreator.git
+        git                  : https://github.com/abocianowski/QRectangleCreator
  ***************************************************************************/
 
 /***************************************************************************
