@@ -3,3 +3,5 @@ QRectangleCreator allows you to create a polygon (rectangle) with the specified 
 The added object is visible in the map window in real time. Clicking adds the object to the selected layer in the layer tree. 
 Important! The selected layer must be of type: polygon. If you try to add an object to, for example, 
 a point layer, an error message will be displayed. Polygon dimensions are treated as mapping units in which the map is currently rendered.
+
+<img src="https://github.com/abocianowski/QRectangleCreator/blob/master/HowTo_gif/QRectangleCreator.gif?raw=true" alt="QRectangleCreator.gif">
