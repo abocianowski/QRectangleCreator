@@ -269,7 +269,7 @@ class StartDrawing(QgsMapToolEmitPoint):
         fields = layer.fields()
         feature.setFields(fields)
 
-        if layer.wkbType()==QgsWkbTypes.GeometryType(3):
+        if layer.wkbType() == QgsWkbTypes.Polygon or layer.wkbType() == QgsWkbTypes.MultiPolygon :
             if layer_crs == canvas_crs:
                 feature.setGeometry( self.rectangle)
             else:
@@ -282,7 +282,7 @@ class StartDrawing(QgsMapToolEmitPoint):
             layer.commitChanges()
             layer.reload()
         else:
-            self.iface.messageBar().pushCritical ('QRectangle Creator: ','The current layer is not of Polygon type. The object has not been added')
+            self.iface.messageBar().pushCritical ('QRectangle Creator: ','The current layer is not of Polygon or MultiPolygon type. The object has not been added')
 
         
 
