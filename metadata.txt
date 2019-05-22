@@ -10,7 +10,7 @@
 name=QRectangleCreator
 qgisMinimumVersion=3.0
 description=QRectangleCreator allows you to create a polygon (rectangle) with the specified width, length on the rotation. 
-version=0.2
+version=0.3
 author=Adrian Bocianowski
 email=adrian@bocianowski.com.pl
 
@@ -23,7 +23,7 @@ repository=https://github.com/abocianowski/QRectangleCreator
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
- changelog=[version=0.1] - plugin create, [version=0.2] - add MultiPolygon support,
+ changelog=[version=0.1] - plugin create, [version=0.2] - add MultiPolygon support,[version=0.3] - change max values in settings to 999999999,
 
 # Tags are comma separated with spaces allowed
 tags=python, rectangle, size, angle, create polygon, create rectangle with map units, snap, snapped
