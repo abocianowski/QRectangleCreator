@@ -2,33 +2,41 @@
 # version 2.0 of QGIS this is the proper way to supply 
 # information about a plugin. The old method of 
 # embedding metadata in __init__.py will 
-# is no longer supported since version 2.0.
+# is no longer supported since version 2.0. 
 
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=QRectangleCreator
+name=QuickRectangleCreator
 qgisMinimumVersion=3.0
-description=QRectangleCreator allows you to create a polygon (rectangle) with the specified width, length on the rotation. 
-version=0.3
-author=Adrian Bocianowski
-email=adrian@bocianowski.com.pl
+description=QuickRectangleCreator allows you to create a rectangle quickly and easily, preset sizes, snap to grid and rotate on the fly.
+version=0.5
+author=Adrian Bocianowski & L Selter
+email=Loenja@selter.co.uk
 
-about=QRectangleCreator allows you to create a polygon (rectangle) with the specified width, length on the rotation. The added object is visible in the map window in real time. Clicking adds the object to the selected layer in the layer tree. Important! The selected layer must be of type: polygon. If you try to add an object to, for example, a point layer, an error message will be displayed. Polygon dimensions are treated as mapping units in which the map is currently rendered
-
-tracker=https://github.com/abocianowski/QRectangleCreator/issues
-repository=https://github.com/abocianowski/QRectangleCreator
+about=This is a rework of the QRectangleCreator plugin. It allows you to create a rectangle with the specified width, length and rotation. The plugin also allows you to snap the rectangle to the grid. The plugin is designed to be more user friendly and to have more features than the original plugin. It makes use of the mouse wheel to rotate the rectangles on the fly. Rectangle dimensions can be saved and recalled quickly through a drop down.
+tracker=http://github.com/Tirpitz93/QuickRectangleCreator/issues
+repository=http://github.com/Tirpitz93/QuickRectangleCreator
 # End of mandatory metadata
 
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
- changelog=[version=0.1] - plugin create, [version=0.2] - add MultiPolygon support,[version=0.3] - change max values in settings to 999999999,
+changelog=
+ [version=0.5] - Fix gif in readme.
+ [version=0.4] - Adds mouse wheel to rotate.
+  adds presets.
+  adds float compatibility.
+  ZM layer type compatibility.
+  Adds sizes to toolbar.
+ [version=0.3] - change max values in settings to 999999999.
+ [version=0.2] - add MultiPolygon support.
+ [version=0.1] - plugin create.
 
 # Tags are comma separated with spaces allowed
 tags=python, rectangle, size, angle, create polygon, create rectangle with map units, snap, snapped
 
-homepage=https://github.com/abocianowski/QRectangleCreator
+homepage=http://github.com/Tirpitz93/QuickRectangleCreator
 category=Plugins
 icon=icons/addRectangle.png
 # experimental flag

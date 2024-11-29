@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/QRectangleCreator/" >
+    <qresource prefix="/plugins/QuickRectangleCreator/" >
         <file>icons/addRectangle.png</file>
     </qresource>
 </RCC>

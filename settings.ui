@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>QRectangleCreator_settings</class>
- <widget class="QDialog" name="QRectangleCreator_settings">
+ <class>QuickRectangleCreator_settings</class>
+ <widget class="QDialog" name="QuickRectangleCreator_settings">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -102,7 +102,7 @@
     <string>Angle (degrees)</string>
    </property>
   </widget>
-  <widget class="QSpinBox" name="width">
+  <widget class="QDoubleSpinBox" name="width">
    <property name="geometry">
     <rect>
      <x>140</x>
@@ -118,7 +118,7 @@
     <number>10</number>
    </property>
   </widget>
-  <widget class="QSpinBox" name="height">
+  <widget class="QDoubleSpinBox" name="height">
    <property name="geometry">
     <rect>
      <x>140</x>
@@ -134,7 +134,7 @@
     <number>20</number>
    </property>
   </widget>
-  <widget class="QSpinBox" name="angle">
+  <widget class="QDoubleSpinBox" name="angle">
    <property name="geometry">
     <rect>
      <x>140</x>
@@ -153,7 +153,7 @@
   <connection>
    <sender>button_box</sender>
    <signal>accepted()</signal>
-   <receiver>QRectangleCreator_settings</receiver>
+   <receiver>QuickRectangleCreator_settings</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -169,7 +169,7 @@
   <connection>
    <sender>button_box</sender>
    <signal>rejected()</signal>
-   <receiver>QRectangleCreator_settings</receiver>
+   <receiver>QuickRectangleCreator_settings</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
